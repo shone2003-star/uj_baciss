@@ -1,0 +1,132 @@
+{
+  "_note": "South African places the privacy filter must never redact (not exhaustive). Places that are also common first names or surnames (for example George, Zola, Alexandra, Naledi, Douglas, Virginia, Kimberley) are left out on purpose: redacting a place is safer than leaking a person's name.",
+  "Provinces": [
+    "Gauteng", "KwaZulu-Natal", "Western Cape", "Eastern Cape", "Free State",
+    "Limpopo", "Mpumalanga", "North West", "Northern Cape", "South Africa"
+  ],
+  "Municipalities": [
+    "City of Johannesburg", "City of Tshwane", "Ekurhuleni", "eThekwini", "Cape Town",
+    "Nelson Mandela Bay", "Buffalo City", "Mangaung", "Msunduzi", "Polokwane",
+    "Mbombela", "Rustenburg", "Sol Plaatje", "Emfuleni", "Mogale City", "Matjhabeng",
+    "Stellenbosch", "Drakenstein", "Overstrand", "Knysna", "Mossel Bay", "Breede Valley",
+    "Witzenberg", "Swartland", "Saldanha Bay", "Theewaterskloof", "Emalahleni",
+    "Steve Tshwete", "Govan Mbeki", "uMhlathuze", "KwaDukuza", "Newcastle",
+    "Ray Nkonyeni", "Alfred Duma", "Lekwa", "Mafube", "Moqhaka", "Dihlabeng",
+    "Maluti-a-Phofung", "Tlokwe", "JB Marks", "Madibeng", "Matlosana", "Mahikeng",
+    "Greater Tzaneen", "Thulamela", "Makhado", "Lephalale", "Mogalakwena",
+    "Dawid Kruiper", "Gamagara", "Joe Morolong", "Walter Sisulu", "Enoch Mgijima",
+    "Raymond Mhlaba", "King Sabata Dalindyebo", "Amathole", "Chris Hani", "OR Tambo"
+  ],
+  "Gauteng": [
+    "Johannesburg", "Pretoria", "Soweto", "Sandton", "Randburg", "Roodepoort",
+    "Krugersdorp", "Randfontein", "Westonaria", "Carletonville", "Midrand", "Centurion",
+    "Benoni", "Boksburg", "Brakpan", "Germiston", "Springs", "Edenvale",
+    "Kempton Park", "Alberton", "Tembisa", "Thembisa", "Katlehong", "Vosloorus",
+    "Daveyton", "Etwatwa", "Duduza", "KwaThema", "Tsakane", "Reiger Park",
+    "Vereeniging", "Vanderbijlpark", "Sebokeng", "Evaton", "Sharpeville", "Bophelong",
+    "Boipatong", "Heidelberg", "Soshanguve", "Mamelodi", "Atteridgeville",
+    "Ga-Rankuwa", "Mabopane", "Hammanskraal", "Olievenhoutbosch", "Laudium",
+    "Eersterust", "Garsfontein", "Waterkloof", "Menlo Park", "Lynnwood", "Silverton",
+    "Pretoria North", "Wonderboom", "Rosslyn", "Akasia", "Bronkhorstspruit",
+    "Sunnyside", "Arcadia", "Hatfield", "Hillbrow", "Berea", "Yeoville", "Rosebank",
+    "Parktown", "Fordsburg", "Mayfair", "Braamfontein", "Newtown", "Bryanston",
+    "Fourways", "Lenasia", "Eldorado Park", "Ennerdale", "Westbury", "Sophiatown",
+    "Noordgesig", "Pimville", "Naturena", "Meadowlands", "Dobsonville", "Diepkloof",
+    "Diepsloot", "Alexandra Township", "Orlando East", "Orlando West", "Protea Glen",
+    "Orange Farm", "Ivory Park", "Kliptown", "Chiawelo", "Emdeni", "Tladi",
+    "Zola Park", "Doornkop", "Kagiso", "Mohlakeng", "Bekkersdal", "Khutsong",
+    "Senaoane", "Marshalltown", "Jeppestown", "Doornfontein", "Turffontein",
+    "Bez Valley", "Bedfordview", "Northcliff", "Honeydew", "Kyalami", "Lanseria",
+    "Muldersdrift", "Hartbeespoort"
+  ],
+  "KwaZulu-Natal": [
+    "Durban", "Umlazi", "KwaMashu", "Inanda", "Ntuzuma", "Chatsworth", "Pinetown",
+    "Westville", "Umhlanga", "La Lucia", "Verulam", "Tongaat", "Amanzimtoti",
+    "Isipingo", "Lamontville", "Clermont", "Hammarsdale", "Mariannhill", "Cato Manor",
+    "Folweni", "Umbumbulu", "Pietermaritzburg", "Edendale", "Imbali", "Howick",
+    "Estcourt", "Ladysmith", "Dundee", "Vryheid", "Ulundi", "Empangeni",
+    "Richards Bay", "Ballito", "Stanger", "Port Shepstone", "Margate", "Scottburgh",
+    "Kokstad", "Eshowe", "Mandeni", "Nongoma", "Pongola", "Mtubatuba", "Jozini",
+    "Underberg", "Ixopo", "Greytown", "Utrecht", "Bergville", "Mooi River",
+    "Hluhluwe", "Mkuze", "Esikhawini", "Ngwelezane", "Kloof", "Hillcrest", "Gillitts",
+    "Yellowwood Park", "Merebank", "Bluff", "Glenwood", "Morningside", "Sydenham",
+    "Springfield", "Ndwedwe", "Maphumulo", "Mpumalanga Township"
+  ],
+  "Western Cape": [
+    "Khayelitsha", "Mitchells Plain", "Gugulethu", "Nyanga", "Langa", "Philippi",
+    "Delft", "Bishop Lavis", "Bellville", "Parow", "Goodwood", "Athlone",
+    "Observatory", "Woodstock", "Salt River", "Sea Point", "Green Point", "Camps Bay",
+    "Claremont", "Wynberg", "Tokai", "Muizenberg", "Fish Hoek", "Simon's Town",
+    "Kuils River", "Brackenfell", "Durbanville", "Milnerton", "Table View", "Blouberg",
+    "Atlantis", "Mfuleni", "Dunoon", "Kraaifontein", "Macassar", "Strand",
+    "Somerset West", "Gordon's Bay", "Hout Bay", "Lansdowne", "Retreat",
+    "Grassy Park", "Lavender Hill", "Hanover Park", "Manenberg", "Elsies River",
+    "Epping", "Bonteheuwel", "Mamre", "Stellenbosch", "Paarl", "Franschhoek", "Ceres",
+    "Swellendam", "Bredasdorp", "Caledon", "Mossel Bay", "Knysna", "Plettenberg Bay",
+    "Oudtshoorn", "Beaufort West", "Saldanha", "Vredenburg", "Malmesbury", "Piketberg",
+    "Clanwilliam", "Vredendal", "Lamberts Bay", "Laingsburg", "Prince Albert",
+    "Riversdale", "Ladismith", "Grabouw", "Villiersdorp", "Tulbagh", "Langebaan",
+    "Yzerfontein", "Struisbaai", "Gansbaai", "Citrusdal", "Mbekweni", "Kayamandi",
+    "Cape Flats", "Bo-Kaap", "Tamboerskloof", "Rondebosch", "Kenilworth", "Plumstead",
+    "Diep River", "Ottery", "Steenberg", "Westlake", "Century City", "Parklands",
+    "Melkbosstrand", "Joe Slovo", "Wallacedene", "Bloekombos", "Scottsdene",
+    "Eerste River", "Blue Downs", "Harare", "Lwandle", "Nomzamo", "Sir Lowry's Pass"
+  ],
+  "Eastern Cape": [
+    "Gqeberha", "Port Elizabeth", "Motherwell", "KwaZakhele", "New Brighton", "Zwide",
+    "KwaNobuhle", "Uitenhage", "Kariega", "Despatch", "Summerstrand", "East London",
+    "Mdantsane", "Duncan Village", "Mthatha", "Butterworth", "Queenstown", "Komani",
+    "Makhanda", "Grahamstown", "Port Alfred", "Jeffreys Bay", "Graaff-Reinet",
+    "Aliwal North", "Lusikisiki", "Bizana", "Flagstaff", "Mount Frere", "Idutywa",
+    "King William's Town", "Qonce", "Bhisho", "Fort Beaufort", "Humansdorp",
+    "Somerset East", "Cofimvaba", "Tsolo", "Libode", "Engcobo", "Ngcobo", "Dutywa",
+    "Willowvale", "Port St Johns", "Mqanduli", "Matatiele", "Mount Fletcher",
+    "Burgersdorp", "Stutterheim", "Kenton-on-Sea", "Patensie", "Joubertina",
+    "Bethelsdorp", "Helenvale", "Gelvandale", "Schauderville", "Kabega", "Westering",
+    "Newton Park", "Ibhayi", "Wells Estate"
+  ],
+  "Free State": [
+    "Bloemfontein", "Botshabelo", "Thaba Nchu", "Welkom", "Kroonstad", "Bethlehem",
+    "Sasolburg", "Parys", "Odendaalsrus", "Harrismith", "Phuthaditjhaba", "Ficksburg",
+    "Ladybrand", "Trompsburg", "Heilbron", "Frankfort", "Zastron", "Smithfield",
+    "Koffiefontein", "Bultfontein", "Hoopstad", "Vrede", "Qwaqwa", "Bainsvlei",
+    "Langenhoven Park", "Heidedal", "Rocklands", "Batho", "Bochabela", "Thabong",
+    "Bronville", "Allanridge", "Steynsrus", "Clocolan", "Winburg", "Brandfort",
+    "Edenburg", "Philippolis", "Jagersfontein", "Fauresmith"
+  ],
+  "Limpopo": [
+    "Polokwane", "Mankweng", "Seshego", "Thohoyandou", "Tzaneen", "Giyani", "Musina",
+    "Louis Trichardt", "Makhado", "Lephalale", "Modimolle", "Bela-Bela", "Mokopane",
+    "Phalaborwa", "Burgersfort", "Jane Furse", "Groblersdal", "Marble Hall",
+    "Thabazimbi", "Hoedspruit", "Mahwelereng", "Lebowakgomo", "Sekhukhune",
+    "Modjadjiskloof", "Nylstroom", "Warmbaths", "Potgietersrus", "Vhembe", "Mopani",
+    "Waterberg", "Capricorn", "Ellisras", "Dendron", "Bochum", "Haenertsburg",
+    "Tubatse", "Steelpoort", "Ohrigstad"
+  ],
+  "Mpumalanga": [
+    "Mbombela", "Nelspruit", "eMalahleni", "Witbank", "Middelburg", "Secunda",
+    "Ermelo", "Standerton", "Bethal", "Piet Retief", "Barberton", "Sabie", "Graskop",
+    "White River", "Hazyview", "Kwaggafontein", "KwaMhlanga", "Siyabuswa", "Mkhondo",
+    "Lydenburg", "Mashishing", "Volksrust", "Komatipoort", "Malelane", "Bushbuckridge",
+    "Embalenhle", "Belfast", "Dullstroom", "Machadodorp", "Emgwenya", "Kabokweni",
+    "Matsulu", "Kanyamazane", "Mataffin", "Tonga", "Driekoppies", "Acornhoek",
+    "Thulamahashe", "Mkhuhlu"
+  ],
+  "North West": [
+    "Mahikeng", "Mafikeng", "Mmabatho", "Rustenburg", "Klerksdorp", "Potchefstroom",
+    "Lichtenburg", "Zeerust", "Vryburg", "Taung", "Ganyesa", "Wolmaransstad", "Orkney",
+    "Stilfontein", "Ventersdorp", "Schweizer-Reneke", "Mogwase", "Marikana",
+    "Tlhabane", "Jouberton", "Ikageng", "Kanana", "Madibeng", "Mooinooi", "Phokeng",
+    "Boitekong", "Sun City", "Pilanesberg", "Ottosdal", "Delareyville", "Bloemhof",
+    "Coligny", "Ottoshoop", "Groot Marico", "Swartruggens", "Derby", "Mothibistad"
+  ],
+  "Northern Cape": [
+    "Upington", "Kuruman", "De Aar", "Springbok", "Calvinia", "Colesberg", "Prieska",
+    "Postmasburg", "Sishen", "Kathu", "Hartswater", "Warrenton", "Carnarvon",
+    "Fraserburg", "Alexander Bay", "Port Nolloth", "Okiep", "Garies", "Danielskuil",
+    "Galeshewe", "Roodepan", "Britstown", "Hanover", "Noupoort", "Victoria West",
+    "Williston", "Loeriesfontein", "Nieuwoudtville", "Vanwyksvlei", "Marydale",
+    "Groblershoop", "Kakamas", "Keimoes", "Kenhardt", "Pofadder", "Aggeneys",
+    "Vioolsdrif", "Hotazel", "Olifantshoek", "Batlharos"
+  ]
+}

@@ -1,0 +1,59 @@
+"""Page 3: counts, urgent items, duplicates and the last agent trace."""
+
+import httpx
+import pandas as pd
+import streamlit as st
+from components import api
+from components.report_view import show_details
+
+st.title("Dashboard")
+
+try:
+    stats = api.get("/stats")
+except httpx.HTTPError as error:
+    st.error(api.explain(error))
+    st.stop()
+
+st.metric("Reports", stats["total"])
+if stats["total"]:
+    for title, key in [
+        ("By status", "by_status"),
+        ("By category", "by_category"),
+        ("By department", "by_department"),
+        ("By urgency", "by_urgency"),
+    ]:
+        st.subheader(title)
+        st.bar_chart(pd.Series(stats[key]))
+
+st.subheader("Urgent, still waiting")
+if stats["urgent"]:
+    columns = ["id", "urgency", "category", "department", "status"]
+    event = st.dataframe(
+        pd.DataFrame(stats["urgent"])[columns],
+        hide_index=True,
+        on_select="rerun",
+        selection_mode="single-row",
+        key="urgent",
+    )
+    if event.selection.rows:
+        report_id = stats["urgent"][event.selection.rows[0]]["id"]
+        details_box, review_box = st.columns(2)
+        if details_box.button(f"Show details of {report_id}"):
+            show_details(report_id)
+        if review_box.button(f"Open {report_id} in the review queue", type="primary"):
+            st.session_state["review_open"] = report_id
+            st.switch_page("pages/review.py")
+    else:
+        st.caption("Select a row to see its details or open it in the review queue.")
+else:
+    st.write("None.")
+
+st.subheader("Duplicate clusters")
+for original, duplicates in stats["duplicate_clusters"].items():
+    st.write(f"{original} is repeated by {', '.join(duplicates)}")
+if not stats["duplicate_clusters"]:
+    st.write("None.")
+
+with st.expander("Agent Trace (steps of your last run)"):
+    for line in st.session_state.get("trace") or ["No run yet in this session."]:
+        st.write(line)

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p01",
+    "language": "en",
+    "text": "My name is Thandi Mokoena, ID 9003045800086. There is a burst pipe outside 27 Vilakazi Street, Soweto. Water has been running for two days. Call me on 082 555 0142.",
+    "pii": {
+      "names": ["Thandi Mokoena"],
+      "addresses": ["27 Vilakazi Street"],
+      "phones": ["082 555 0142"],
+      "ids": ["9003045800086"],
+      "emails": []
+    },
+    "area": "Soweto"
+  },
+  {
+    "id": "p02",
+    "language": "en",
+    "text": "This is Johan Venter from 5 Long Street, Woodstock. The streetlight on my corner has been out for a week and it is very dark. Email me: johan.venter@example.com",
+    "pii": {
+      "names": ["Johan Venter"],
+      "addresses": ["5 Long Street"],
+      "phones": [],
+      "ids": [],
+      "emails": ["johan.venter@example.com"]
+    },
+    "area": "Woodstock"
+  },
+  {
+    "id": "p03",
+    "language": "zu",
+    "text": "Igama lami nginguNomvula Khumalo. Ayikho ugesi endaweni yami e-Umlazi kusukela izolo. Ngihlala ku-12 Mandela Road. Ngishayele ku-061 234 5678.",
+    "pii": {
+      "names": ["Nomvula Khumalo"],
+      "addresses": ["12 Mandela Road"],
+      "phones": ["061 234 5678"],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Umlazi"
+  },
+  {
+    "id": "p04",
+    "language": "xh",
+    "text": "Ndingu-Sipho Ntuli. Akukho manzi eKhayelitsha ukususela ngoMvulo. Ndihlala kwa-Erf 4410. Fowunela ku-0731234567.",
+    "pii": {
+      "names": ["Sipho Ntuli"],
+      "addresses": ["Erf 4410"],
+      "phones": ["0731234567"],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Khayelitsha"
+  },
+  {
+    "id": "p05",
+    "language": "af",
+    "text": "My naam is Annelie Joubert, ek woon by Erf 2231 in Mangaung. Die vullis is al drie weke nie opgetel nie. My ID-nommer is 7506120123084.",
+    "pii": {
+      "names": ["Annelie Joubert"],
+      "addresses": ["Erf 2231"],
+      "phones": [],
+      "ids": ["7506120123084"],
+      "emails": []
+    },
+    "area": "Mangaung"
+  },
+  {
+    "id": "p06",
+    "language": "st",
+    "text": "Lebitso la ka ke Palesa Molefe. Ha ho metsi Soweto ho tloha ka Mantaha. Ke dula ho 8 Chris Hani Road. Mpitse ho +27 82 345 6789.",
+    "pii": {
+      "names": ["Palesa Molefe"],
+      "addresses": ["8 Chris Hani Road"],
+      "phones": ["+27 82 345 6789"],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Soweto"
+  },
+  {
+    "id": "p07",
+    "language": "en",
+    "text": "Raw sewage is flowing onto the road in Mitchells Plain near the clinic. Children walk through it on their way to school.",
+    "pii": { "names": [], "addresses": [], "phones": [], "ids": [], "emails": [] },
+    "area": "Mitchells Plain"
+  },
+  {
+    "id": "p08",
+    "language": "en",
+    "text": "I am Mrs Fatima Patel. A big pothole at 45 Church Street, Paarl has damaged my car. My cell is 021 555 0199 and my husband Imran Patel's ID is 8201015009087.",
+    "pii": {
+      "names": ["Fatima Patel", "Imran Patel"],
+      "addresses": ["45 Church Street"],
+      "phones": ["021 555 0199"],
+      "ids": ["8201015009087"],
+      "emails": []
+    },
+    "area": "Paarl"
+  },
+  {
+    "id": "p09",
+    "language": "en",
+    "text": "Please contact my neighbour Lindiwe Zulu or Bongani Mthembu on 031 555 0123 about the rubbish dumped at 19 Moore Road, Umlazi.",
+    "pii": {
+      "names": ["Lindiwe Zulu", "Bongani Mthembu"],
+      "addresses": ["19 Moore Road"],
+      "phones": ["031 555 0123"],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Umlazi"
+  },
+  {
+    "id": "p10",
+    "language": "af",
+    "text": "Ek is Jaco Pretorius. Daar is geen krag in Paarl sedert gisteraand nie. Die ou mevrou, Maria van Wyk, by 14 Main Road is siek en het suurstof nodig.",
+    "pii": {
+      "names": ["Jaco Pretorius", "Maria van Wyk"],
+      "addresses": ["14 Main Road"],
+      "phones": [],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Paarl"
+  },
+  {
+    "id": "p11",
+    "language": "en",
+    "text": "No electricity in Mankweng Unit B for three days. I am Rose Mabasa, 072 345 6780.",
+    "pii": {
+      "names": ["Rose Mabasa"],
+      "addresses": [],
+      "phones": ["072 345 6780"],
+      "ids": [],
+      "emails": []
+    },
+    "area": "Mankweng"
+  },
+  {
+    "id": "p12",
+    "language": "en",
+    "text": "Hello, I'm Kagiso Phiri (kagiso.phiri@example.org). The traffic lights in Soweto at Beyers Naude Drive have not worked since Tuesday. It is dangerous.",
+    "pii": {
+      "names": ["Kagiso Phiri"],
+      "addresses": [],
+      "phones": [],
+      "ids": [],
+      "emails": ["kagiso.phiri@example.org"]
+    },
+    "area": "Soweto"
+  }
+]

@@ -1,0 +1,18 @@
+import { z } from "zod";
+
+import { apiJson, jsonBody } from "@/lib/api-client";
+import {
+  draftOutcomeSchema,
+  queueItemSchema,
+  reportDetailSchema,
+} from "@/features/review/schemas";
+
+export const fetchQueue = () => apiJson("/reviews", z.array(queueItemSchema));
+
+export const fetchReportDetail = (id: string) =>
+  apiJson(`/reports/${id}`, reportDetailSchema);
+
+export type DraftDecision = { action: "approve" | "reject"; text?: string };
+
+export const sendDraftDecision = (id: string, decision: DraftDecision) =>
+  apiJson(`/reports/${id}/draft`, draftOutcomeSchema, jsonBody(decision));
